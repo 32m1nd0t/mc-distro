@@ -133,6 +133,105 @@
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/sodium-fabric-0.8.9+mc26.1.1.jar",
             "MD5": "fadbbc26a4ec1fe3b61a9201ee8ee61e"
           }
+        },
+        {
+          "id": "journeymap.core.config",
+          "name": "journeymap.core.config",
+          "type": "File",
+          "artifact": {
+            "size": 2828,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.core.config",
+            "MD5": "d0922948ff96287d6ee6c4cfa14d8e38",
+            "path": "journeymap/config/6.0/journeymap.core.config"
+          }
+        },
+        {
+          "id": "journeymap.fullmap.config",
+          "name": "journeymap.fullmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 1327,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.fullmap.config",
+            "MD5": "3c58e1c5182fcb815b4840322c0994f8",
+            "path": "journeymap/config/6.0/journeymap.fullmap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap.config",
+          "name": "journeymap.minimap.config",
+          "type": "File",
+          "artifact": {
+            "size": 2338,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.minimap.config",
+            "MD5": "9d4a8ae1bcee9baacedcdfaddaf48294",
+            "path": "journeymap/config/6.0/journeymap.minimap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap2.config",
+          "name": "journeymap.minimap2.config",
+          "type": "File",
+          "artifact": {
+            "size": 2344,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.minimap2.config",
+            "MD5": "9bc7216c31c3db4d3cb50788c14cf2be",
+            "path": "journeymap/config/6.0/journeymap.minimap2.config"
+          }
+        },
+        {
+          "id": "journeymap.rendering.config",
+          "name": "journeymap.rendering.config",
+          "type": "File",
+          "artifact": {
+            "size": 671,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.rendering.config",
+            "MD5": "7bf1cd935200be8e2c68803ed02eef1d",
+            "path": "journeymap/config/6.0/journeymap.rendering.config"
+          }
+        },
+        {
+          "id": "journeymap.topo.config",
+          "name": "journeymap.topo.config",
+          "type": "File",
+          "artifact": {
+            "size": 971,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.topo.config",
+            "MD5": "671cf5ddc1bcb2064285451deade2895",
+            "path": "journeymap/config/6.0/journeymap.topo.config"
+          }
+        },
+        {
+          "id": "journeymap.waypoint.config",
+          "name": "journeymap.waypoint.config",
+          "type": "File",
+          "artifact": {
+            "size": 1410,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.waypoint.config",
+            "MD5": "df391e243e9ae52030fc745f1f722563",
+            "path": "journeymap/config/6.0/journeymap.waypoint.config"
+          }
+        },
+        {
+          "id": "journeymap.webmap.config",
+          "name": "journeymap.webmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.webmap.config",
+            "MD5": "02ceff05a611aa8186b5c4f4395e86a9",
+            "path": "journeymap/config/6.0/journeymap.webmap.config"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 73,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/servers.dat",
+            "MD5": "55f1c9891eac01841a71124edcd45ae8",
+            "path": "servers.dat"
+          }
         }
       ]
     }

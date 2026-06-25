@@ -2,16 +2,11 @@
   "$schema": "file:///C:/Users/lyfv/Desktop/NebulaRoot/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "wlsserver (Minecraft 26.1.2)",
-    "description": "wlsserver Running Minecraft 26.1.2 (Fabric v0.19.3)",
+    "name": "꿀통서버",
+    "description": "꿀통서버 Minecraft 26.1.2 (Fabric v0.19.3)",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "localhost:25565",
-    "discord": {
-      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-    },
-    "mainServer": false,
+    "address": "wlsserver.duckdns.org:25565",
+    "mainServer": true,
     "autoconnect": false
   },
   "fabric": {

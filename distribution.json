@@ -3,8 +3,8 @@
   "servers": [
     {
       "id": "wlsserver-26.1.2",
-      "name": "WLS 마인크래프트 서버",
-      "description": "Minecraft 26.1.2 (Fabric)",
+      "name": "꿀통서버",
+      "description": "꿀통서버 Minecraft 26.1.2 (Fabric)",
       "icon": null,
       "version": "1.0.0",
       "address": "wlsserver.duckdns.org:25565",

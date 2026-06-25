@@ -1,10 +1,16 @@
 {
   "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
   "servers": [
     {
       "id": "wlsserver-26.1.2",
       "name": "꿀통서버",
-      "description": "꿀통서버 Minecraft 26.1.2 (Fabric)",
+      "description": "꿀통서버 Minecraft 26.1.2 (Fabric v0.19.3)",
       "icon": null,
       "version": "1.0.0",
       "address": "wlsserver.duckdns.org:25565",
@@ -105,6 +111,16 @@
           }
         },
         {
+          "id": "kr.honey.imefix:honey_ime_fix:1.0.0@jar",
+          "name": "HoneyIMEFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11991,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/honey-ime-fix-1.0.0.jar",
+            "MD5": "3c52b10ab9b35f0f43faf29eabeb9914"
+          }
+        },
+        {
           "id": "generated.fabricmod:iris:1.10.9+mc26.1.1@jar",
           "name": "Iris",
           "type": "FabricMod",
@@ -122,16 +138,6 @@
             "size": 4188959,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/journeymap-fabric-26.1.2-6.0.0-beta.91.jar",
             "MD5": "574fdb0373e36905b8c484174d798800"
-          }
-        },
-        {
-          "id": "kr.honey:honey-ime-fix:1.0.0@jar",
-          "name": "HoneyIMEFix (한글 IME 수정)",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 11896,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/honey-ime-fix-1.0.0.jar",
-            "MD5": "e46de600f5794e9a7fd09f64a1b77ce4"
           }
         },
         {
@@ -237,9 +243,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 113,
+            "size": 73,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/servers.dat",
-            "MD5": "9b95242061db74946d9e37e7ac61b9fd",
+            "MD5": "55f1c9891eac01841a71124edcd45ae8",
             "path": "servers.dat"
           }
         }

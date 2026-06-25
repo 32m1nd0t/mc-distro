@@ -129,9 +129,9 @@
           "name": "HoneyIMEFix (한글 IME 수정)",
           "type": "FabricMod",
           "artifact": {
-            "size": 7395,
+            "size": 7666,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/honey-ime-fix-1.0.0.jar",
-            "MD5": "33d52e2d289c687bc9303b0156af8aea"
+            "MD5": "bdde55c6c9a9fd042d81345649deb2c0"
           }
         },
         {

@@ -237,9 +237,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 73,
+            "size": 113,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/servers.dat",
-            "MD5": "55f1c9891eac01841a71124edcd45ae8",
+            "MD5": "9b95242061db74946d9e37e7ac61b9fd",
             "path": "servers.dat"
           }
         }

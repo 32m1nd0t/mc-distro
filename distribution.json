@@ -115,9 +115,9 @@
           "name": "HoneyIMEFix",
           "type": "FabricMod",
           "artifact": {
-            "size": 12181,
+            "size": 12245,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/honey-ime-fix-1.0.0.jar",
-            "MD5": "b1f066ff98920a87b45c67fdd249b9c2"
+            "MD5": "a1582a6c9bf718a5a08e67ba3da4091b"
           }
         },
         {

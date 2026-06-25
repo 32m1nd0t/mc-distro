@@ -125,6 +125,16 @@
           }
         },
         {
+          "id": "kr.honey:honey-ime-fix:1.0.0@jar",
+          "name": "HoneyIMEFix (한글 IME 수정)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6285,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/honey-ime-fix-1.0.0.jar",
+            "MD5": "ea4e4ba8e4402bdcfb7ed03febfd3bdd"
+          }
+        },
+        {
           "id": "net.caffeinemc.mods:sodium:0.8.9+mc26.1.1@jar",
           "name": "Sodium",
           "type": "FabricMod",

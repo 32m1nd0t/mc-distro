@@ -22,8 +22,8 @@
         "suggestedMajor": 21,
         "distribution": "TEMURIN",
         "ram": {
-          "recommended": 2048,
-          "minimum": 1024
+          "recommended": 1024,
+          "minimum": 512
         }
       },
       "modules": [

@@ -17,6 +17,15 @@
       "minecraftVersion": "26.1.2",
       "mainServer": true,
       "autoconnect": false,
+      "javaOptions": {
+        "supported": ">=21.x",
+        "suggestedMajor": 21,
+        "distribution": "TEMURIN",
+        "ram": {
+          "recommended": 2048,
+          "minimum": 1024
+        }
+      },
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.19.3",

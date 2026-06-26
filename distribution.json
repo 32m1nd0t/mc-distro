@@ -17,15 +17,6 @@
       "minecraftVersion": "26.1.2",
       "mainServer": true,
       "autoconnect": false,
-      "javaOptions": {
-        "supported": ">=25.x",
-        "suggestedMajor": 25,
-        "distribution": "TEMURIN",
-        "ram": {
-          "recommended": 1024,
-          "minimum": 512
-        }
-      },
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.19.3",
@@ -256,6 +247,17 @@
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/servers.dat",
             "MD5": "55f1c9891eac01841a71124edcd45ae8",
             "path": "servers.dat"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.8.1.zip",
+          "name": "ComplementaryReimagined_r5.8.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 546925,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/shaderpacks/ComplementaryReimagined_r5.8.1.zip",
+            "MD5": "8dbb914ed233d6e8183ce34eb26beaab",
+            "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip"
           }
         }
       ]

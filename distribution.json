@@ -13,6 +13,10 @@
       "description": "꿀통서버 Minecraft 26.1.2 (Fabric v0.19.3)",
       "icon": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/icon.png",
       "version": "1.0.0",
+      "javaOptions": {
+        "supported": ">=25.x",
+        "suggestedMajor": 25
+      },
       "address": "wlsserver.duckdns.org:25565",
       "minecraftVersion": "26.1.2",
       "mainServer": true,

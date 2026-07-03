@@ -11,12 +11,8 @@
       "id": "wlsserver-26.1.2",
       "name": "꿀통서버",
       "description": "꿀통서버 Minecraft 26.1.2 (Fabric v0.19.3)",
-      "icon": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/icon.png",
+      "icon": null,
       "version": "1.0.0",
-      "javaOptions": {
-        "supported": ">=25.x",
-        "suggestedMajor": 25
-      },
       "address": "wlsserver.duckdns.org:25565",
       "minecraftVersion": "26.1.2",
       "mainServer": true,
@@ -115,16 +111,6 @@
           }
         },
         {
-          "id": "kr.honey.imefix:honey_ime_fix:1.0.0@jar",
-          "name": "HoneyIMEFix",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 12241,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/honey-ime-fix-1.0.0.jar",
-            "MD5": "184477dc3565a80190b67fef8ec8fdae"
-          }
-        },
-        {
           "id": "generated.fabricmod:iris:1.10.9+mc26.1.1@jar",
           "name": "Iris",
           "type": "FabricMod",
@@ -142,6 +128,16 @@
             "size": 4188959,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/journeymap-fabric-26.1.2-6.0.0-beta.91.jar",
             "MD5": "574fdb0373e36905b8c484174d798800"
+          }
+        },
+        {
+          "id": "dev.erudites.mods:koreanify:0.1.6+mc26.1.2@jar",
+          "name": "Koreanify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 65539,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/koreanify-fabric-0.1.6+mc26.1.2.jar",
+            "MD5": "8dbb477b77ba99ea84ecc4ea8c0bed2c"
           }
         },
         {
@@ -240,6 +236,17 @@
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.webmap.config",
             "MD5": "02ceff05a611aa8186b5c4f4395e86a9",
             "path": "journeymap/config/6.0/journeymap.webmap.config"
+          }
+        },
+        {
+          "id": "HoneyPack.zip",
+          "name": "HoneyPack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3425,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/resourcepacks/HoneyPack.zip",
+            "MD5": "4dd37cde0437daca555374864a316df9",
+            "path": "resourcepacks/HoneyPack.zip"
           }
         },
         {

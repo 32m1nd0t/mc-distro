@@ -239,17 +239,6 @@
           }
         },
         {
-          "id": "HoneyPack.zip",
-          "name": "HoneyPack.zip",
-          "type": "File",
-          "artifact": {
-            "size": 3110,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/resourcepacks/HoneyPack.zip",
-            "MD5": "be88e9708957d4c736d9e0eb40628cae",
-            "path": "resourcepacks/HoneyPack.zip"
-          }
-        },
-        {
           "id": "servers.dat",
           "name": "servers.dat",
           "type": "File",

@@ -111,6 +111,16 @@
           }
         },
         {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:26.1.5@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 609711,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/ForgeConfigAPIPort-v26.1.5-mc26.1.x-Fabric.jar",
+            "MD5": "f795f9e6655198943be18e417cf025bd"
+          }
+        },
+        {
           "id": "generated.fabricmod:iris:1.10.9+mc26.1.1@jar",
           "name": "Iris",
           "type": "FabricMod",
@@ -138,6 +148,16 @@
             "size": 65539,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/koreanify-fabric-0.1.6+mc26.1.2.jar",
             "MD5": "8dbb477b77ba99ea84ecc4ea8c0bed2c"
+          }
+        },
+        {
+          "id": "icyllis.modernui.mc:modernui:3.13.0.5@jar",
+          "name": "Modern UI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25687671,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/ModernUI-Fabric-26.1.2-3.13.0.5-universal.jar",
+            "MD5": "90a3a18d1355de45c8e95cab9f9ddb7f"
           }
         },
         {

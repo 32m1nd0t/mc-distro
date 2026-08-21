@@ -171,6 +171,110 @@
           }
         },
         {
+          "id": "generated.fabricmod:fancymenu:3.9.10@jar",
+          "name": "FancyMenu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 26207080,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/fancymenu_fabric_3.9.10_MC_26.1.2.jar",
+            "MD5": "4d66b6d4be95541ef5a414d775bc8896"
+          }
+        },
+        {
+          "id": "generated.fabricmod:konkrete:1.10.2@jar",
+          "name": "Konkrete",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 809836,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/konkrete_fabric_1.10.2_MC_26.1.1.jar",
+            "MD5": "a3f3ed8bd6c2496233064574daf433d7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:melody:1.0.16@jar",
+          "name": "Melody",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 228922,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/melody_fabric_1.0.16_MC_26.1.1.jar",
+            "MD5": "03db93ae03f40d6bba983043737e491b"
+          }
+        },
+        {
+          "id": "generated.fabricmod:commandkeys:3.102.4+26.1.2@jar",
+          "name": "Command Keys",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 269408,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/commandkeys-fabric-3.102.4+26.1.2.jar",
+            "MD5": "5e783f79bf8baccbae582b9bd21c8f10"
+          }
+        },
+        {
+          "id": "generated.fabricmod:modmenu:18.0.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 857151,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/modmenu-18.0.0.jar",
+            "MD5": "8e8e0702a41de5e10fb9676595cb1bce"
+          }
+        },
+        {
+          "id": "generated.fabricmod:placeholder-api:3.0.0+26.1@jar",
+          "name": "Text Placeholder API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 254376,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/placeholder-api-3.0.0+26.1.jar",
+            "MD5": "28349f7d56cfd8ee62e89a682fdd40c6"
+          }
+        },
+        {
+          "id": "commandkeys.config",
+          "name": "Command Keys quick-menu binding",
+          "type": "File",
+          "artifact": {
+            "size": 1472,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/commandkeys.json",
+            "MD5": "3bffaa0ba108ddf0fbb91dc3b45fff6e",
+            "path": "config/commandkeys.json"
+          }
+        },
+        {
+          "id": "fancymenu.options",
+          "name": "FancyMenu modpack options",
+          "type": "File",
+          "artifact": {
+            "size": 278,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/options.txt",
+            "MD5": "341cb5b305fd1d05485de63d6c765d5f",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "fancymenu.custom-guis",
+          "name": "FancyMenu custom GUI registry",
+          "type": "File",
+          "artifact": {
+            "size": 311,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "e77e28c2fc528bcf3d33f57cab7c7196",
+            "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "fancymenu.wls-quick-menu",
+          "name": "WLS quick menu layout",
+          "type": "File",
+          "artifact": {
+            "size": 6989,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/customization/wls_quick_menu.txt",
+            "MD5": "378a1932dd1540190405c843c351eef5",
+            "path": "config/fancymenu/customization/wls_quick_menu.txt"
+          }
+        },
+        {
           "id": "journeymap.core.config",
           "name": "journeymap.core.config",
           "type": "File",

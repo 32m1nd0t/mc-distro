@@ -1,0 +1,222 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = wls_quick_menu
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1787338800000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:12c55975-a4ca-4bc7-a40b-0e2f2b17a001-1787338800000] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = true
+  apply_vanilla_background_blur = true
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  color = #172733E8
+  blur_enabled = true
+  blur_radius = 5.0
+  corner_radius_top_left = 8.0
+  corner_radius_top_right = 8.0
+  corner_radius_bottom_right = 8.0
+  corner_radius_bottom_left = 8.0
+  element_type = shape
+  instance_identifier = 6edb86cf-833d-432e-abdf-f567aa104001-1787338800000
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 854
+  auto_sizing_base_screen_height = 480
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 0
+  y = 0
+  width = 222
+  height = 108
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2558c067-9af3-4721-b114-a3dbb9534001-1787338800000
+  [loading_requirement_container_meta:2558c067-9af3-4721-b114-a3dbb9534001-1787338800000] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #5DADE2FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = b402cf99-f0dd-4ea9-8ce6-824179131001-1787338800000
+  [executable_action_instance:f165f154-c102-45e0-ae3b-407abf039001-1787338800000][action_type:sendmessage] = /도감
+  [executable_block:b402cf99-f0dd-4ea9-8ce6-824179131001-1787338800000][type:generic] = [executables:f165f154-c102-45e0-ae3b-407abf039001-1787338800000;]
+  label = 도감
+  description = 수집품 도감을 엽니다
+  transparent_background = false
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 957ea267-c92e-4227-9432-b849f2941001-1787338800000
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 854
+  auto_sizing_base_screen_height = 480
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -55
+  y = -25
+  width = 96
+  height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #55FF55FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = 3c6dbede-6836-4940-b65b-4ecf9a2c2002-1787338800000
+  [executable_action_instance:f2cd4969-fbf8-4d55-98c2-2f767b7f9002-1787338800000][action_type:sendmessage] = /우편함
+  [executable_block:3c6dbede-6836-4940-b65b-4ecf9a2c2002-1787338800000][type:generic] = [executables:f2cd4969-fbf8-4d55-98c2-2f767b7f9002-1787338800000;]
+  label = 우편함
+  description = 받은 우편과 보상을 확인합니다
+  transparent_background = false
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 4db221da-8251-451e-a2bf-67404e842002-1787338800000
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 854
+  auto_sizing_base_screen_height = 480
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 55
+  y = -25
+  width = 96
+  height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #55FF55FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = 5f7905d8-aafd-4a96-ae02-b985d6693003-1787338800000
+  [executable_action_instance:0ee3df30-1d50-412e-87bd-578fa30d6003-1787338800000][action_type:sendmessage] = /야생
+  [executable_block:5f7905d8-aafd-4a96-ae02-b985d6693003-1787338800000][type:generic] = [executables:0ee3df30-1d50-412e-87bd-578fa30d6003-1787338800000;]
+  label = 야생 서버
+  description = 야생 서버로 이동합니다
+  transparent_background = false
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 78323a13-80f7-4583-9790-6e5974943003-1787338800000
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 854
+  auto_sizing_base_screen_height = 480
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -55
+  y = 20
+  width = 96
+  height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #55FF55FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = 11e0d88c-1684-4013-8774-8ef694874004-1787338800000
+  [executable_action_instance:40c1cb09-7cb2-45ea-ad34-8a12369c8004-1787338800000][action_type:sendmessage] = /건축
+  [executable_block:11e0d88c-1684-4013-8774-8ef694874004-1787338800000][type:generic] = [executables:40c1cb09-7cb2-45ea-ad34-8a12369c8004-1787338800000;]
+  label = 건축 서버
+  description = 건축 서버로 이동합니다
+  transparent_background = false
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 8bf4d4d4-cef2-422b-a7f5-188b6fe64004-1787338800000
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 854
+  auto_sizing_base_screen_height = 480
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 55
+  y = 20
+  width = 96
+  height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  enable_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #55FF55FF
+  layer_hidden_in_editor = false
+}
+

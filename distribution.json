@@ -268,9 +268,9 @@
           "name": "WLS quick menu layout",
           "type": "File",
           "artifact": {
-            "size": 9528,
+            "size": 9523,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/customization/wls_quick_menu.txt",
-            "MD5": "8e64dd37887321cda11c4f28f9eaf276",
+            "MD5": "37266c5742a2fb079bf45f81bf2943c0",
             "path": "config/fancymenu/customization/wls_quick_menu.txt"
           }
         },

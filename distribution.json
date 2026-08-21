@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -12,7 +12,7 @@
       "name": "꿀통서버",
       "description": "꿀통서버 Minecraft 26.1.2 (Fabric v0.19.3)",
       "icon": null,
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "wlsserver.duckdns.org:25565",
       "minecraftVersion": "26.1.2",
       "javaOptions": {
@@ -153,6 +153,16 @@
             "size": 65539,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/koreanify-fabric-0.1.6+mc26.1.2.jar",
             "MD5": "8dbb477b77ba99ea84ecc4ea8c0bed2c"
+          }
+        },
+        {
+          "id": "kr.honey.imefix:honey_ime_fix:1.0.0@jar",
+          "name": "HoneyIMEFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12241,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/honey-ime-fix-1.0.0.jar",
+            "MD5": "184477dc3565a80190b67fef8ec8fdae"
           }
         },
         {

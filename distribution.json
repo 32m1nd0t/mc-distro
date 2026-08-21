@@ -101,13 +101,13 @@
           ]
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.153.0+26.1.2@jar",
+          "id": "generated.fabricmod:fabric-api:0.155.2+26.1.2@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 2504357,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/fabric-api-0.153.0+26.1.2.jar",
-            "MD5": "30952d1f910eea141328b4c21531c0b1"
+            "size": 2520724,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/fabric-api-0.155.2+26.1.2.jar",
+            "MD5": "2b1d35a85b9ff988c2513c3d7e57a8fb"
           }
         },
         {

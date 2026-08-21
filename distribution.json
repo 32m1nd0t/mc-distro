@@ -268,10 +268,21 @@
           "name": "WLS quick menu layout",
           "type": "File",
           "artifact": {
-            "size": 6989,
+            "size": 9528,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/customization/wls_quick_menu.txt",
-            "MD5": "378a1932dd1540190405c843c351eef5",
+            "MD5": "8e64dd37887321cda11c4f28f9eaf276",
             "path": "config/fancymenu/customization/wls_quick_menu.txt"
+          }
+        },
+        {
+          "id": "fancymenu.wls-quick-menu-art",
+          "name": "WLS quick menu artwork",
+          "type": "File",
+          "artifact": {
+            "size": 1760880,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/assets/wls_quick_menu_6.png",
+            "MD5": "186120e75cb1632992262d40fcfb2398",
+            "path": "config/fancymenu/assets/wls_quick_menu_6.png"
           }
         },
         {

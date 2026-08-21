@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -256,17 +256,6 @@
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.webmap.config",
             "MD5": "02ceff05a611aa8186b5c4f4395e86a9",
             "path": "journeymap/config/6.0/journeymap.webmap.config"
-          }
-        },
-        {
-          "id": "servers.dat",
-          "name": "servers.dat",
-          "type": "File",
-          "artifact": {
-            "size": 73,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/servers.dat",
-            "MD5": "55f1c9891eac01841a71124edcd45ae8",
-            "path": "servers.dat"
           }
         },
         {

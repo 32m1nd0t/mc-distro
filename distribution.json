@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -15,6 +15,11 @@
       "version": "1.0.0",
       "address": "wlsserver.duckdns.org:25565",
       "minecraftVersion": "26.1.2",
+      "javaOptions": {
+        "distribution": "TEMURIN",
+        "supported": ">=25.x <26",
+        "suggestedMajor": 25
+      },
       "mainServer": true,
       "autoconnect": false,
       "modules": [

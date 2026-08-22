@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -12,7 +12,7 @@
       "name": "꿀통서버",
       "description": "꿀통서버 Minecraft 26.1.2 (Fabric v0.19.3)",
       "icon": null,
-      "version": "1.0.2",
+      "version": "1.0.3",
       "address": "wlsserver.duckdns.org:25565",
       "minecraftVersion": "26.1.2",
       "javaOptions": {
@@ -305,9 +305,9 @@
           "name": "journeymap.core.config",
           "type": "File",
           "artifact": {
-            "size": 2828,
+            "size": 2826,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.core.config",
-            "MD5": "d0922948ff96287d6ee6c4cfa14d8e38",
+            "MD5": "d2abbe6ac6f86bee92f4f5d156ce3e4f",
             "path": "journeymap/config/6.0/journeymap.core.config"
           }
         },
@@ -397,6 +397,16 @@
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/shaderpacks/ComplementaryReimagined_r5.8.1.zip",
             "MD5": "8dbb914ed233d6e8183ce34eb26beaab",
             "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/servers.dat",
+            "path": "servers.dat"
           }
         }
       ]

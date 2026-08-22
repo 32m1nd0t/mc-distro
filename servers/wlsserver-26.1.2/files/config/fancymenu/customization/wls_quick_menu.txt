@@ -168,7 +168,7 @@ element {
   auto_sizing_base_screen_height = 720
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 5
+  x = 6
   y = -10
   width = 49
   height = 16
@@ -279,7 +279,7 @@ element {
   auto_sizing_base_screen_height = 720
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 20
+  x = 23
   y = 50
   width = 70
   height = 18

@@ -1,0 +1,8 @@
+# GitHub Pages 는 저장소 blob 을 그대로 서빙한다. 워킹카피가 CRLF 로 체크아웃되면
+# distribution.json 의 MD5/크기가 서빙되는 내용과 어긋나 런처가 매 실행마다 재다운로드한다.
+* text=auto eol=lf
+
+*.dat binary
+*.jar binary
+*.zip binary
+*.png binary

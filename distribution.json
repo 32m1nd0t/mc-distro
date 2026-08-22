@@ -316,9 +316,9 @@
           "name": "journeymap.fullmap.config",
           "type": "File",
           "artifact": {
-            "size": 1327,
+            "size": 1324,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.fullmap.config",
-            "MD5": "3c58e1c5182fcb815b4840322c0994f8",
+            "MD5": "264f285e261f79d36174e41b6ae93862",
             "path": "journeymap/config/6.0/journeymap.fullmap.config"
           }
         },
@@ -327,9 +327,9 @@
           "name": "journeymap.minimap.config",
           "type": "File",
           "artifact": {
-            "size": 2338,
+            "size": 2335,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.minimap.config",
-            "MD5": "9d4a8ae1bcee9baacedcdfaddaf48294",
+            "MD5": "8db5fe0387d6519925a82e661fda44d7",
             "path": "journeymap/config/6.0/journeymap.minimap.config"
           }
         },
@@ -338,9 +338,9 @@
           "name": "journeymap.minimap2.config",
           "type": "File",
           "artifact": {
-            "size": 2344,
+            "size": 2341,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.minimap2.config",
-            "MD5": "9bc7216c31c3db4d3cb50788c14cf2be",
+            "MD5": "1fb4e9f7277decb83b10d79177623461",
             "path": "journeymap/config/6.0/journeymap.minimap2.config"
           }
         },
@@ -349,9 +349,9 @@
           "name": "journeymap.rendering.config",
           "type": "File",
           "artifact": {
-            "size": 671,
+            "size": 668,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.rendering.config",
-            "MD5": "7bf1cd935200be8e2c68803ed02eef1d",
+            "MD5": "bdead7b97d4b83acac9313e95b92713d",
             "path": "journeymap/config/6.0/journeymap.rendering.config"
           }
         },
@@ -360,9 +360,9 @@
           "name": "journeymap.topo.config",
           "type": "File",
           "artifact": {
-            "size": 971,
+            "size": 969,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.topo.config",
-            "MD5": "671cf5ddc1bcb2064285451deade2895",
+            "MD5": "81c2fbc39d9191bb0d83304777f0d3b8",
             "path": "journeymap/config/6.0/journeymap.topo.config"
           }
         },
@@ -371,9 +371,9 @@
           "name": "journeymap.waypoint.config",
           "type": "File",
           "artifact": {
-            "size": 1410,
+            "size": 1407,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.waypoint.config",
-            "MD5": "df391e243e9ae52030fc745f1f722563",
+            "MD5": "c06d1c818ab58f1338aa050d876ebef9",
             "path": "journeymap/config/6.0/journeymap.waypoint.config"
           }
         },
@@ -382,9 +382,9 @@
           "name": "journeymap.webmap.config",
           "type": "File",
           "artifact": {
-            "size": 162,
+            "size": 159,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.webmap.config",
-            "MD5": "02ceff05a611aa8186b5c4f4395e86a9",
+            "MD5": "7922426e43c1e8a38ec0dd39c16c1d4c",
             "path": "journeymap/config/6.0/journeymap.webmap.config"
           }
         },

@@ -53,8 +53,8 @@ element {
   auto_sizing_base_screen_height = 720
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 0
-  y = 0
+  x = -156
+  y = -104
   width = 312
   height = 208
   stretch_x = false
@@ -94,8 +94,8 @@ element {
   auto_sizing_base_screen_height = 720
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -64
-  y = 1
+  x = -115
+  y = -11
   width = 49
   height = 16
   stretch_x = false
@@ -131,8 +131,8 @@ element {
   auto_sizing_base_screen_height = 720
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -4
-  y = 1
+  x = -55
+  y = -11
   width = 49
   height = 16
   stretch_x = false
@@ -168,8 +168,8 @@ element {
   auto_sizing_base_screen_height = 720
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 56
-  y = 1
+  x = 5
+  y = -11
   width = 49
   height = 16
   stretch_x = false
@@ -205,8 +205,8 @@ element {
   auto_sizing_base_screen_height = 720
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 115
-  y = 1
+  x = 64
+  y = -11
   width = 49
   height = 16
   stretch_x = false
@@ -242,8 +242,8 @@ element {
   auto_sizing_base_screen_height = 720
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -40
-  y = 61
+  x = -90
+  y = 50
   width = 70
   height = 18
   stretch_x = false
@@ -279,8 +279,8 @@ element {
   auto_sizing_base_screen_height = 720
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 70
-  y = 61
+  x = 19
+  y = 50
   width = 70
   height = 18
   stretch_x = false

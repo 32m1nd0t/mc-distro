@@ -1,5 +1,5 @@
 {
-  "version": "1.0.12",
+  "version": "1.0.13",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -12,7 +12,7 @@
       "name": "꿀통서버",
       "description": "꿀통서버 Minecraft 26.1.2 (Fabric v0.19.3)",
       "icon": null,
-      "version": "1.0.10",
+      "version": "1.0.11",
       "address": "wlsserver.duckdns.org:25565",
       "minecraftVersion": "26.1.2",
       "javaOptions": {
@@ -163,6 +163,16 @@
             "size": 12241,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/honey-ime-fix-1.0.0.jar",
             "MD5": "184477dc3565a80190b67fef8ec8fdae"
+          }
+        },
+        {
+          "id": "kr.honey.custommenus:honey_custom_menus:1.0.0@jar",
+          "name": "Honey Custom Menus",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4204500,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/honey-custom-menus-client-1.0.0.jar",
+            "MD5": "afe94105318e03438f94103c682d9d71"
           }
         },
         {

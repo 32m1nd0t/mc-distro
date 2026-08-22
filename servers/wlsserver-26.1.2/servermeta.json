@@ -1,7 +1,7 @@
 {
   "$schema": "file:///C:/Users/lyfv/Desktop/NebulaRoot/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.12",
+    "version": "1.0.13",
     "name": "꿀통서버",
     "description": "꿀통서버 Minecraft 26.1.2 (Fabric v0.19.3)",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",

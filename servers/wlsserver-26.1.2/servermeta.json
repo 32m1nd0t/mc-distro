@@ -12,5 +12,6 @@
   "fabric": {
     "version": "0.19.3"
   },
-  "untrackedFiles": []
+  "untrackedFiles": [],
+  "version": "1.0.22"
 }

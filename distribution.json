@@ -1,5 +1,5 @@
 {
-  "version": "1.0.28",
+  "version": "1.0.29",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -12,7 +12,7 @@
       "name": "꿀통서버",
       "description": "꿀통서버 Minecraft 26.1.2 (Fabric v0.19.3)",
       "icon": null,
-      "version": "1.0.26",
+      "version": "1.0.27",
       "address": "wlsserver.duckdns.org:25565",
       "minecraftVersion": "26.1.2",
       "javaOptions": {
@@ -293,9 +293,9 @@
           "name": "WLS quick menu layout",
           "type": "File",
           "artifact": {
-            "size": 9474,
+            "size": 16630,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/customization/wls_quick_menu.txt",
-            "MD5": "2fc5abb14e0c9e0c2df321d878a7aa35",
+            "MD5": "aa3b05b9421dff591d51d7d0e8f49c9a",
             "path": "config/fancymenu/customization/wls_quick_menu.txt"
           }
         },

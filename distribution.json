@@ -1,5 +1,5 @@
 {
-  "version": "1.0.42",
+  "version": "1.0.43",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -12,7 +12,7 @@
       "name": "꿀통서버",
       "description": "꿀통서버 Minecraft 26.1.2 (Fabric v0.19.3)",
       "icon": null,
-      "version": "1.0.40",
+      "version": "1.0.41",
       "address": "wlsserver.duckdns.org:25565",
       "minecraftVersion": "26.1.2",
       "javaOptions": {
@@ -170,9 +170,9 @@
           "name": "Honey Custom Menus",
           "type": "FabricMod",
           "artifact": {
-            "size": 12469083,
+            "size": 14979101,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/honey-custom-menus-client-1.0.0.jar",
-            "MD5": "03ba4137ca1099a679a0a88df137ccc5"
+            "MD5": "c5b0a494bdf48626e5c3dbabd8c444be"
           }
         },
         {
@@ -293,9 +293,9 @@
           "name": "WLS quick menu layout",
           "type": "File",
           "artifact": {
-            "size": 16630,
+            "size": 19111,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/customization/wls_quick_menu.txt",
-            "MD5": "aa3b05b9421dff591d51d7d0e8f49c9a",
+            "MD5": "93b8e8b55e73871a2c3624470d2624be",
             "path": "config/fancymenu/customization/wls_quick_menu.txt"
           }
         },

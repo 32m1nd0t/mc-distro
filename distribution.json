@@ -1,5 +1,5 @@
 {
-  "version": "1.0.44",
+  "version": "1.0.45",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -12,7 +12,7 @@
       "name": "꿀통서버",
       "description": "꿀통서버 Minecraft 26.1.2 (Fabric v0.19.3)",
       "icon": null,
-      "version": "1.0.42",
+      "version": "1.0.43",
       "address": "wlsserver.duckdns.org:25565",
       "minecraftVersion": "26.1.2",
       "javaOptions": {
@@ -293,9 +293,9 @@
           "name": "WLS quick menu layout",
           "type": "File",
           "artifact": {
-            "size": 19111,
+            "size": 16630,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/customization/wls_quick_menu.txt",
-            "MD5": "93b8e8b55e73871a2c3624470d2624be",
+            "MD5": "aa3b05b9421dff591d51d7d0e8f49c9a",
             "path": "config/fancymenu/customization/wls_quick_menu.txt"
           }
         },
@@ -308,17 +308,6 @@
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/assets/wls_quick_menu_6.png",
             "MD5": "186120e75cb1632992262d40fcfb2398",
             "path": "config/fancymenu/assets/wls_quick_menu_6.png"
-          }
-        },
-        {
-          "id": "fancymenu.quest-bookmark-art",
-          "name": "Quest Bookmark Art",
-          "type": "File",
-          "artifact": {
-            "size": 727256,
-            "MD5": "4fcf2d3bfbebe5a2f050720c174aef02",
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/assets/quest_bookmark.png",
-            "path": "config/fancymenu/assets/quest_bookmark.png"
           }
         },
         {

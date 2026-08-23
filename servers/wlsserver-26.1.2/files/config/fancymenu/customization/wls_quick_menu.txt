@@ -32,6 +32,47 @@ layout_action_executable_blocks {
 }
 
 element {
+  source = [source:local]/config/fancymenu/assets/quest_bookmark.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFFFF
+  restart_animated_on_menu_load = false
+  element_type = image
+  instance_identifier = 0a1b2c3d-0000-4000-8000-000000000101-1787344200000
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1280
+  auto_sizing_base_screen_height = 720
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 131
+  y = -51
+  width = 26
+  height = 99
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 0a1b2c3d-0000-4000-8000-000000000102-1787344200000
+  [loading_requirement_container_meta:0a1b2c3d-0000-4000-8000-000000000102-1787344200000] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
   source = [source:local]/config/fancymenu/assets/wls_quick_menu_6.png
   repeat_texture = false
   nine_slice_texture = false
@@ -508,6 +549,43 @@ element {
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
+  enable_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #55FF55FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = 0a1b2c3d-0000-4000-8000-000000000201-1787344300000
+  [executable_action_instance:0a1b2c3d-0000-4000-8000-000000000202-1787344300000][action_type:sendmessage] = /일일퀘스트
+  [executable_block:0a1b2c3d-0000-4000-8000-000000000201-1787344300000][type:generic] = [executables:0a1b2c3d-0000-4000-8000-000000000202-1787344300000;]
+  label =
+  description = 오늘의 퀘스트를 확인합니다
+  transparent_background = true
+  navigatable = false
+  element_type = custom_button
+  instance_identifier = 0a1b2c3d-0000-4000-8000-000000000203-1787344300000
+  appearance_delay = no_delay
+  appearance_delay_seconds = 0.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1280
+  auto_sizing_base_screen_height = 720
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 136
+  y = -51
+  width = 21
+  height = 99
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
   enable_parallax = false
   animated_offset_x = 0
   animated_offset_y = 0

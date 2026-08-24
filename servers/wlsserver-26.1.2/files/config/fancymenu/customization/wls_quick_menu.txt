@@ -185,7 +185,7 @@ element {
 
 element {
   button_element_executable_block_identifier = f0000000-0000-4000-8000-000000000004-1787344300000
-  [executable_action_instance:f1000000-0000-4000-8000-000000000004-1787344300000][action_type:sendmessage] = /내기록
+  [executable_action_instance:f1000000-0000-4000-8000-000000000004-1787344300000][action_type:sendmessage] = /내정보
   [executable_block:f0000000-0000-4000-8000-000000000004-1787344300000][type:generic] = [executables:f1000000-0000-4000-8000-000000000004-1787344300000;]
   label =
   description = 나의 누적 개인 기록을 확인합니다
@@ -407,9 +407,9 @@ element {
 
 element {
   button_element_executable_block_identifier = e6fb8a12-e655-4279-bfac-4a42aa2bf004-1787344200000
-  [executable_action_instance:9c0a8f29-093c-4579-8d42-dad7b925c004-1787344200000][action_type:sendmessage] = /내기록
+  [executable_action_instance:9c0a8f29-093c-4579-8d42-dad7b925c004-1787344200000][action_type:sendmessage] = /내정보
   [executable_block:e6fb8a12-e655-4279-bfac-4a42aa2bf004-1787344200000][type:generic] = [executables:9c0a8f29-093c-4579-8d42-dad7b925c004-1787344200000;]
-  label = 내 기록
+  label = 내 정보
   description =
   transparent_background = true
   navigatable = false

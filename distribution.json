@@ -1,5 +1,5 @@
 {
-  "version": "1.0.47",
+  "version": "1.0.48",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -12,7 +12,7 @@
       "name": "꿀통서버",
       "description": "꿀통서버 Minecraft 26.1.2 (Fabric v0.19.3)",
       "icon": null,
-      "version": "1.0.45",
+      "version": "1.0.46",
       "address": "wlsserver.duckdns.org:25565",
       "minecraftVersion": "26.1.2",
       "javaOptions": {
@@ -170,9 +170,9 @@
           "name": "Honey Custom Menus",
           "type": "FabricMod",
           "artifact": {
-            "size": 14986429,
+            "size": 15007158,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/honey-custom-menus-client-1.0.0.jar",
-            "MD5": "e9e929fefcfee7156096eb21cb79d5e4"
+            "MD5": "ab8b9a7191352ea81eb4ba494b2cdd6e"
           }
         },
         {

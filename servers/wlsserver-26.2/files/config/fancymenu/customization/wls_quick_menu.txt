@@ -77,7 +77,7 @@ element {
   [executable_action_instance:f1000000-0000-4000-8000-000000000001-1787344300000][action_type:sendmessage] = /우편함
   [executable_block:f0000000-0000-4000-8000-000000000001-1787344300000][type:generic] = [executables:f1000000-0000-4000-8000-000000000001-1787344300000;]
   label =
-  description =
+  description = 받은 우편과 보상을 확인합니다
   transparent_background = true
   navigatable = false
   element_type = custom_button
@@ -114,7 +114,7 @@ element {
   [executable_action_instance:f1000000-0000-4000-8000-000000000002-1787344300000][action_type:sendmessage] = /도감
   [executable_block:f0000000-0000-4000-8000-000000000002-1787344300000][type:generic] = [executables:f1000000-0000-4000-8000-000000000002-1787344300000;]
   label =
-  description =
+  description = 수집품 도감을 엽니다
   transparent_background = true
   navigatable = false
   element_type = custom_button
@@ -151,7 +151,7 @@ element {
   [executable_action_instance:f1000000-0000-4000-8000-000000000003-1787344300000][action_type:sendmessage] = /쓰레기통
   [executable_block:f0000000-0000-4000-8000-000000000003-1787344300000][type:generic] = [executables:f1000000-0000-4000-8000-000000000003-1787344300000;]
   label =
-  description =
+  description = 닫을 때 내용물을 영구 삭제합니다
   transparent_background = true
   navigatable = false
   element_type = custom_button
@@ -188,7 +188,7 @@ element {
   [executable_action_instance:f1000000-0000-4000-8000-000000000004-1787344300000][action_type:sendmessage] = /내정보
   [executable_block:f0000000-0000-4000-8000-000000000004-1787344300000][type:generic] = [executables:f1000000-0000-4000-8000-000000000004-1787344300000;]
   label =
-  description =
+  description = 나의 누적 개인 기록을 확인합니다
   transparent_background = true
   navigatable = false
   element_type = custom_button
@@ -225,7 +225,7 @@ element {
   [executable_action_instance:f1000000-0000-4000-8000-000000000005-1787344300000][action_type:sendmessage] = /야생
   [executable_block:f0000000-0000-4000-8000-000000000005-1787344300000][type:generic] = [executables:f1000000-0000-4000-8000-000000000005-1787344300000;]
   label =
-  description =
+  description = 야생 서버로 이동합니다
   transparent_background = true
   navigatable = false
   element_type = custom_button
@@ -262,7 +262,7 @@ element {
   [executable_action_instance:f1000000-0000-4000-8000-000000000006-1787344300000][action_type:sendmessage] = /건축
   [executable_block:f0000000-0000-4000-8000-000000000006-1787344300000][type:generic] = [executables:f1000000-0000-4000-8000-000000000006-1787344300000;]
   label =
-  description =
+  description = 건축 서버로 이동합니다
   transparent_background = true
   navigatable = false
   element_type = custom_button
@@ -292,246 +292,6 @@ element {
   load_once_per_session = false
   in_editor_color = #55FF55FF
   layer_hidden_in_editor = false
-}
-
-element {
-  color = #1A1026F2
-  blur_enabled = false
-  corner_radius_top_left = 6.0
-  corner_radius_top_right = 6.0
-  corner_radius_bottom_right = 6.0
-  corner_radius_bottom_left = 6.0
-  element_type = shape
-  instance_identifier = a3100000-0000-4000-8000-000000000001-1787344500000
-  anchor_point = mid-centered
-  x = -118
-  y = 107
-  width = 236
-  height = 22
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = d3100000-0000-4000-8000-000000000001-1787344500000
-  [loading_requirement_container_meta:d3100000-0000-4000-8000-000000000001-1787344500000] = [groups:][instances:e3100000-0000-4000-8000-000000000001-1787344500000;]
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:e3100000-0000-4000-8000-000000000001-1787344500000] = f2000000-0000-4000-8000-000000000001-1787344300000
-}
-
-element {
-  button_element_executable_block_identifier = b3100000-0000-4000-8000-000000000001-1787344500000
-  [executable_block:b3100000-0000-4000-8000-000000000001-1787344500000][type:generic] = [executables:]
-  label = 받은 우편과 보상을 확인합니다
-  description =
-  transparent_background = true
-  navigatable = false
-  element_type = custom_button
-  instance_identifier = a3200000-0000-4000-8000-000000000001-1787344500000
-  anchor_point = mid-centered
-  x = -112
-  y = 109
-  width = 224
-  height = 18
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = d3200000-0000-4000-8000-000000000001-1787344500000
-  [loading_requirement_container_meta:d3200000-0000-4000-8000-000000000001-1787344500000] = [groups:][instances:e3200000-0000-4000-8000-000000000001-1787344500000;]
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:e3200000-0000-4000-8000-000000000001-1787344500000] = f2000000-0000-4000-8000-000000000001-1787344300000
-}
-
-element {
-  color = #1A1026F2
-  blur_enabled = false
-  corner_radius_top_left = 6.0
-  corner_radius_top_right = 6.0
-  corner_radius_bottom_right = 6.0
-  corner_radius_bottom_left = 6.0
-  element_type = shape
-  instance_identifier = a3300000-0000-4000-8000-000000000002-1787344500000
-  anchor_point = mid-centered
-  x = -118
-  y = 107
-  width = 236
-  height = 22
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = d3300000-0000-4000-8000-000000000002-1787344500000
-  [loading_requirement_container_meta:d3300000-0000-4000-8000-000000000002-1787344500000] = [groups:][instances:e3300000-0000-4000-8000-000000000002-1787344500000;]
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:e3300000-0000-4000-8000-000000000002-1787344500000] = f2000000-0000-4000-8000-000000000002-1787344300000
-}
-
-element {
-  button_element_executable_block_identifier = b3300000-0000-4000-8000-000000000002-1787344500000
-  [executable_block:b3300000-0000-4000-8000-000000000002-1787344500000][type:generic] = [executables:]
-  label = 수집품 도감을 엽니다
-  description =
-  transparent_background = true
-  navigatable = false
-  element_type = custom_button
-  instance_identifier = a3400000-0000-4000-8000-000000000002-1787344500000
-  anchor_point = mid-centered
-  x = -112
-  y = 109
-  width = 224
-  height = 18
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = d3400000-0000-4000-8000-000000000002-1787344500000
-  [loading_requirement_container_meta:d3400000-0000-4000-8000-000000000002-1787344500000] = [groups:][instances:e3400000-0000-4000-8000-000000000002-1787344500000;]
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:e3400000-0000-4000-8000-000000000002-1787344500000] = f2000000-0000-4000-8000-000000000002-1787344300000
-}
-
-element {
-  color = #1A1026F2
-  blur_enabled = false
-  corner_radius_top_left = 6.0
-  corner_radius_top_right = 6.0
-  corner_radius_bottom_right = 6.0
-  corner_radius_bottom_left = 6.0
-  element_type = shape
-  instance_identifier = a3500000-0000-4000-8000-000000000003-1787344500000
-  anchor_point = mid-centered
-  x = -118
-  y = 107
-  width = 236
-  height = 22
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = d3500000-0000-4000-8000-000000000003-1787344500000
-  [loading_requirement_container_meta:d3500000-0000-4000-8000-000000000003-1787344500000] = [groups:][instances:e3500000-0000-4000-8000-000000000003-1787344500000;]
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:e3500000-0000-4000-8000-000000000003-1787344500000] = f2000000-0000-4000-8000-000000000003-1787344300000
-}
-
-element {
-  button_element_executable_block_identifier = b3500000-0000-4000-8000-000000000003-1787344500000
-  [executable_block:b3500000-0000-4000-8000-000000000003-1787344500000][type:generic] = [executables:]
-  label = 닫을 때 내용물을 영구 삭제합니다
-  description =
-  transparent_background = true
-  navigatable = false
-  element_type = custom_button
-  instance_identifier = a3600000-0000-4000-8000-000000000003-1787344500000
-  anchor_point = mid-centered
-  x = -112
-  y = 109
-  width = 224
-  height = 18
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = d3600000-0000-4000-8000-000000000003-1787344500000
-  [loading_requirement_container_meta:d3600000-0000-4000-8000-000000000003-1787344500000] = [groups:][instances:e3600000-0000-4000-8000-000000000003-1787344500000;]
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:e3600000-0000-4000-8000-000000000003-1787344500000] = f2000000-0000-4000-8000-000000000003-1787344300000
-}
-
-element {
-  color = #1A1026F2
-  blur_enabled = false
-  corner_radius_top_left = 6.0
-  corner_radius_top_right = 6.0
-  corner_radius_bottom_right = 6.0
-  corner_radius_bottom_left = 6.0
-  element_type = shape
-  instance_identifier = a3700000-0000-4000-8000-000000000004-1787344500000
-  anchor_point = mid-centered
-  x = -118
-  y = 107
-  width = 236
-  height = 22
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = d3700000-0000-4000-8000-000000000004-1787344500000
-  [loading_requirement_container_meta:d3700000-0000-4000-8000-000000000004-1787344500000] = [groups:][instances:e3700000-0000-4000-8000-000000000004-1787344500000;]
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:e3700000-0000-4000-8000-000000000004-1787344500000] = f2000000-0000-4000-8000-000000000004-1787344300000
-}
-
-element {
-  button_element_executable_block_identifier = b3700000-0000-4000-8000-000000000004-1787344500000
-  [executable_block:b3700000-0000-4000-8000-000000000004-1787344500000][type:generic] = [executables:]
-  label = 나의 누적 개인 기록을 확인합니다
-  description =
-  transparent_background = true
-  navigatable = false
-  element_type = custom_button
-  instance_identifier = a3800000-0000-4000-8000-000000000004-1787344500000
-  anchor_point = mid-centered
-  x = -112
-  y = 109
-  width = 224
-  height = 18
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = d3800000-0000-4000-8000-000000000004-1787344500000
-  [loading_requirement_container_meta:d3800000-0000-4000-8000-000000000004-1787344500000] = [groups:][instances:e3800000-0000-4000-8000-000000000004-1787344500000;]
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:e3800000-0000-4000-8000-000000000004-1787344500000] = f2000000-0000-4000-8000-000000000004-1787344300000
-}
-
-element {
-  color = #1A1026F2
-  blur_enabled = false
-  corner_radius_top_left = 6.0
-  corner_radius_top_right = 6.0
-  corner_radius_bottom_right = 6.0
-  corner_radius_bottom_left = 6.0
-  element_type = shape
-  instance_identifier = a3900000-0000-4000-8000-000000000005-1787344500000
-  anchor_point = mid-centered
-  x = -118
-  y = 107
-  width = 236
-  height = 22
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = d3900000-0000-4000-8000-000000000005-1787344500000
-  [loading_requirement_container_meta:d3900000-0000-4000-8000-000000000005-1787344500000] = [groups:][instances:e3900000-0000-4000-8000-000000000005-1787344500000;]
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:e3900000-0000-4000-8000-000000000005-1787344500000] = f2000000-0000-4000-8000-000000000005-1787344300000
-}
-
-element {
-  button_element_executable_block_identifier = b3900000-0000-4000-8000-000000000005-1787344500000
-  [executable_block:b3900000-0000-4000-8000-000000000005-1787344500000][type:generic] = [executables:]
-  label = 야생 서버로 이동합니다
-  description =
-  transparent_background = true
-  navigatable = false
-  element_type = custom_button
-  instance_identifier = a3a00000-0000-4000-8000-000000000005-1787344500000
-  anchor_point = mid-centered
-  x = -112
-  y = 109
-  width = 224
-  height = 18
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = d3a00000-0000-4000-8000-000000000005-1787344500000
-  [loading_requirement_container_meta:d3a00000-0000-4000-8000-000000000005-1787344500000] = [groups:][instances:e3a00000-0000-4000-8000-000000000005-1787344500000;]
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:e3a00000-0000-4000-8000-000000000005-1787344500000] = f2000000-0000-4000-8000-000000000005-1787344300000
-}
-
-element {
-  color = #1A1026F2
-  blur_enabled = false
-  corner_radius_top_left = 6.0
-  corner_radius_top_right = 6.0
-  corner_radius_bottom_right = 6.0
-  corner_radius_bottom_left = 6.0
-  element_type = shape
-  instance_identifier = a3b00000-0000-4000-8000-000000000006-1787344500000
-  anchor_point = mid-centered
-  x = -118
-  y = 107
-  width = 236
-  height = 22
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = d3b00000-0000-4000-8000-000000000006-1787344500000
-  [loading_requirement_container_meta:d3b00000-0000-4000-8000-000000000006-1787344500000] = [groups:][instances:e3b00000-0000-4000-8000-000000000006-1787344500000;]
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:e3b00000-0000-4000-8000-000000000006-1787344500000] = f2000000-0000-4000-8000-000000000006-1787344300000
-}
-
-element {
-  button_element_executable_block_identifier = b3b00000-0000-4000-8000-000000000006-1787344500000
-  [executable_block:b3b00000-0000-4000-8000-000000000006-1787344500000][type:generic] = [executables:]
-  label = 건축 서버로 이동합니다
-  description =
-  transparent_background = true
-  navigatable = false
-  element_type = custom_button
-  instance_identifier = a3c00000-0000-4000-8000-000000000006-1787344500000
-  anchor_point = mid-centered
-  x = -112
-  y = 109
-  width = 224
-  height = 18
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = d3c00000-0000-4000-8000-000000000006-1787344500000
-  [loading_requirement_container_meta:d3c00000-0000-4000-8000-000000000006-1787344500000] = [groups:][instances:e3c00000-0000-4000-8000-000000000006-1787344500000;]
-  [loading_requirement:fancymenu_visibility_requirement_is_element_hovered][requirement_mode:if][req_id:e3c00000-0000-4000-8000-000000000006-1787344500000] = f2000000-0000-4000-8000-000000000006-1787344300000
 }
 
 element {

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.81",
+  "version": "1.0.82",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -12,7 +12,7 @@
       "name": "꿀통서버",
       "description": "꿀통서버 Minecraft 26.2 (Fabric v0.19.3)",
       "icon": null,
-      "version": "1.0.78",
+      "version": "1.0.79",
       "address": "wlsserver.duckdns.org:25565",
       "minecraftVersion": "26.2",
       "javaOptions": {
@@ -271,9 +271,9 @@
           "name": "Modern UI client and font config",
           "type": "File",
           "artifact": {
-            "size": 9310,
+            "size": 9311,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/config/ModernUI/client.toml",
-            "MD5": "b09d9f7c64a45f964af649da8e564b0c",
+            "MD5": "fac9161e5a487117b6b3e0f1d08fe80a",
             "path": "config/ModernUI/client.toml"
           }
         },

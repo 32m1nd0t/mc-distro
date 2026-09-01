@@ -1,5 +1,5 @@
 {
-  "version": "1.0.80",
+  "version": "1.0.81",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -8,13 +8,13 @@
   },
   "servers": [
     {
-      "id": "wlsserver-26.1.2",
+      "id": "wlsserver-26.2",
       "name": "꿀통서버",
-      "description": "꿀통서버 Minecraft 26.1.2 (Fabric v0.19.3)",
+      "description": "꿀통서버 Minecraft 26.2 (Fabric v0.19.3)",
       "icon": null,
-      "version": "1.0.77",
+      "version": "1.0.78",
       "address": "wlsserver.duckdns.org:25565",
-      "minecraftVersion": "26.1.2",
+      "minecraftVersion": "26.2",
       "javaOptions": {
         "distribution": "TEMURIN",
         "supported": ">=25.x <26",
@@ -34,13 +34,13 @@
           },
           "subModules": [
             {
-              "id": "26.1.2-fabric-0.19.3",
+              "id": "26.2-fabric-0.19.3",
               "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 2782,
-                "MD5": "465557089e52db6ba3af45bc6c56258f",
-                "url": "https://32m1nd0t.github.io/mc-distro/repo/versions/26.1.2-fabric-0.19.3/26.1.2-fabric-0.19.3.json"
+                "size": 2778,
+                "url": "https://32m1nd0t.github.io/mc-distro/repo/versions/26.2-fabric-0.19.3/26.2-fabric-0.19.3.json",
+                "MD5": "bebc86cd7b22ad8d5ae3d536bb280a34"
               }
             },
             {
@@ -106,153 +106,197 @@
           ]
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.155.2+26.1.2@jar",
+          "id": "generated.fabricmod:fabric-api:0.158.0+26.2@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 2520724,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/fabric-api-0.155.2+26.1.2.jar",
-            "MD5": "2b1d35a85b9ff988c2513c3d7e57a8fb"
+            "size": 2535765,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/fabric-api-0.158.0+26.2.jar",
+            "MD5": "238103e925b6d9980a58fb283f02f597"
           }
         },
         {
-          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:26.1.5@jar",
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:26.2.1@jar",
           "name": "Forge Config API Port",
           "type": "FabricMod",
           "artifact": {
-            "size": 609711,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/ForgeConfigAPIPort-v26.1.5-mc26.1.x-Fabric.jar",
-            "MD5": "f795f9e6655198943be18e417cf025bd"
+            "size": 609550,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
+            "MD5": "bb4e3132796ab0e4bee044e8f11f6941"
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.10.9+mc26.1.1@jar",
+          "id": "generated.fabricmod:iris:1.11.2+mc26.2@jar",
           "name": "Iris",
           "type": "FabricMod",
           "artifact": {
-            "size": 2803860,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/iris-fabric-1.10.9+mc26.1.1.jar",
-            "MD5": "0037a947d04dd252c4348c16d271c6b2"
+            "size": 2820763,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/iris-fabric-1.11.2+mc26.2.jar",
+            "MD5": "11c0b0d99bf9d9cb55f9e35a2d6bb85f"
           }
         },
         {
-          "id": "journeymap:journeymap:26.1.2-6.0.0-beta.91@jar",
+          "id": "journeymap:journeymap:26.2-6.0.7@jar",
           "name": "Journeymap",
           "type": "FabricMod",
           "artifact": {
-            "size": 4188959,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/journeymap-fabric-26.1.2-6.0.0-beta.91.jar",
-            "MD5": "574fdb0373e36905b8c484174d798800"
+            "size": 4342831,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/journeymap-fabric-26.2-6.0.7.jar",
+            "MD5": "0fdb40335b421c7b4f0023074136c996"
           }
         },
         {
-          "id": "dev.erudites.mods:koreanify:0.1.6+mc26.1.2@jar",
+          "id": "dev.erudites.mods:koreanify:0.1.11+mc26.1.2@jar",
           "name": "Koreanify",
           "type": "FabricMod",
           "artifact": {
-            "size": 65539,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/koreanify-fabric-0.1.6+mc26.1.2.jar",
-            "MD5": "8dbb477b77ba99ea84ecc4ea8c0bed2c"
+            "size": 87251,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/koreanify-fabric-0.1.11+mc26.1.2.jar",
+            "MD5": "6d11df1369eb7a86359c6d79c98c6e1c"
           }
         },
         {
-          "id": "kr.honey.imefix:honey_ime_fix:1.0.0@jar",
+          "id": "kr.honey.imefix:honey_ime_fix:1.0.1@jar",
           "name": "HoneyIMEFix",
           "type": "FabricMod",
           "artifact": {
-            "size": 12241,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/honey-ime-fix-1.0.0.jar",
-            "MD5": "184477dc3565a80190b67fef8ec8fdae"
+            "size": 11278,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/honey-ime-fix-1.0.1.jar",
+            "MD5": "ede699c1d136cc7c1de1ce6c23ac1171"
           }
         },
         {
-          "id": "kr.honey.custommenus:honey_custom_menus:1.0.0@jar",
+          "id": "kr.honey.custommenus:honey_custom_menus:1.0.1@jar",
           "name": "Honey Custom Menus",
           "type": "FabricMod",
           "artifact": {
-            "size": 21422010,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/honey-custom-menus-client-1.0.0.jar",
-            "MD5": "47aac0a5e129b952055215821131194b"
+            "size": 21422048,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/honey-custom-menus-client-1.0.1.jar",
+            "MD5": "bf0fc58f3d89bda9519699cf5ca69215"
           }
         },
         {
-          "id": "icyllis.modernui.mc:modernui:3.13.0.5@jar",
+          "id": "icyllis.modernui.mc:modernui:3.13.0.7-SNAPSHOT@jar",
           "name": "Modern UI",
           "type": "FabricMod",
           "artifact": {
-            "size": 25687671,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/ModernUI-Fabric-26.1.2-3.13.0.5-universal.jar",
-            "MD5": "90a3a18d1355de45c8e95cab9f9ddb7f"
+            "size": 24460489,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/ModernUI-Fabric-26.2-3.13.0.7-SNAPSHOT-universal.jar",
+            "MD5": "0071645ab2f5afbcf7486efc4da0df40"
           }
         },
         {
-          "id": "net.caffeinemc.mods:sodium:0.8.9+mc26.1.1@jar",
+          "id": "net.caffeinemc.mods:sodium:0.9.1+mc26.2@jar",
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 1810286,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/sodium-fabric-0.8.9+mc26.1.1.jar",
-            "MD5": "fadbbc26a4ec1fe3b61a9201ee8ee61e"
+            "size": 1834384,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/sodium-fabric-0.9.1+mc26.2.jar",
+            "MD5": "12238397e6e067c00369e72999e8d163"
           }
         },
         {
-          "id": "generated.fabricmod:fancymenu:3.9.10@jar",
+          "id": "generated.fabricmod:fancymenu:3.9.12@jar",
           "name": "FancyMenu",
           "type": "FabricMod",
           "artifact": {
-            "size": 26207080,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/fancymenu_fabric_3.9.10_MC_26.1.2.jar",
-            "MD5": "4d66b6d4be95541ef5a414d775bc8896"
+            "size": 26292318,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/fancymenu_fabric_3.9.12_MC_26.2.jar",
+            "MD5": "129db86eb8c38da95a2d68df86b565b6"
           }
         },
         {
-          "id": "generated.fabricmod:konkrete:1.10.2@jar",
+          "id": "generated.fabricmod:konkrete:1.11.1@jar",
           "name": "Konkrete",
           "type": "FabricMod",
           "artifact": {
-            "size": 809836,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/konkrete_fabric_1.10.2_MC_26.1.1.jar",
-            "MD5": "a3f3ed8bd6c2496233064574daf433d7"
+            "size": 764987,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/konkrete_fabric_1.11.1_MC_26.2.jar",
+            "MD5": "554b9dcace4914a50d75f30476b94b9d"
           }
         },
         {
-          "id": "generated.fabricmod:melody:1.0.16@jar",
+          "id": "generated.fabricmod:melody:1.0.17@jar",
           "name": "Melody",
           "type": "FabricMod",
           "artifact": {
-            "size": 228922,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/melody_fabric_1.0.16_MC_26.1.1.jar",
-            "MD5": "03db93ae03f40d6bba983043737e491b"
+            "size": 227497,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/melody_fabric_1.0.17_MC_26.2.jar",
+            "MD5": "21c701fff3660dd40c086fc3f47f526d"
           }
         },
         {
-          "id": "generated.fabricmod:commandkeys:3.102.4+26.1.2@jar",
+          "id": "generated.fabricmod:commandkeys:3.103.1+26.2@jar",
           "name": "Command Keys",
           "type": "FabricMod",
           "artifact": {
-            "size": 269408,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/commandkeys-fabric-3.102.4+26.1.2.jar",
-            "MD5": "5e783f79bf8baccbae582b9bd21c8f10"
+            "size": 269777,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/commandkeys-fabric-3.103.1+26.2.jar",
+            "MD5": "b57a78358d94092daa858eba18416430"
           }
         },
         {
-          "id": "generated.fabricmod:modmenu:18.0.0@jar",
+          "id": "generated.fabricmod:modmenu:20.0.1@jar",
           "name": "Mod Menu",
           "type": "FabricMod",
           "artifact": {
-            "size": 857151,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/modmenu-18.0.0.jar",
-            "MD5": "8e8e0702a41de5e10fb9676595cb1bce"
+            "size": 614002,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/modmenu-20.0.1.jar",
+            "MD5": "87749d37d34f7e3b9d41f93135474346"
           }
         },
         {
-          "id": "generated.fabricmod:placeholder-api:3.0.0+26.1@jar",
+          "id": "generated.fabricmod:placeholder-api:3.1.0-beta.1+26.2@jar",
           "name": "Text Placeholder API",
           "type": "FabricMod",
           "artifact": {
-            "size": 254376,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/fabricmods/required/placeholder-api-3.0.0+26.1.jar",
-            "MD5": "28349f7d56cfd8ee62e89a682fdd40c6"
+            "size": 254973,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/placeholder-api-3.1.0-beta.1+26.2.jar",
+            "MD5": "2acee95d87c4e626781880017e3ee03d"
+          }
+        },
+        {
+          "id": "modernui.bootstrap",
+          "name": "Modern UI bootstrap config",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/config/ModernUI/bootstrap.properties",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/ModernUI/bootstrap.properties"
+          }
+        },
+        {
+          "id": "modernui.client",
+          "name": "Modern UI client and font config",
+          "type": "File",
+          "artifact": {
+            "size": 9310,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/config/ModernUI/client.toml",
+            "MD5": "b09d9f7c64a45f964af649da8e564b0c",
+            "path": "config/ModernUI/client.toml"
+          }
+        },
+        {
+          "id": "modernui.common",
+          "name": "Modern UI common config",
+          "type": "File",
+          "artifact": {
+            "size": 152,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/config/ModernUI/common.toml",
+            "MD5": "2cec26207ef90ac0749caef7d2e7eb39",
+            "path": "config/ModernUI/common.toml"
+          }
+        },
+        {
+          "id": "modernui.text",
+          "name": "Modern UI text engine config",
+          "type": "File",
+          "artifact": {
+            "size": 5701,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/config/ModernUI/text.toml",
+            "MD5": "ee641a3f8cb82e9b19a549c2ed5eda3d",
+            "path": "config/ModernUI/text.toml"
           }
         },
         {
@@ -261,7 +305,7 @@
           "type": "File",
           "artifact": {
             "size": 1472,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/commandkeys.json",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/config/commandkeys.json",
             "MD5": "3bffaa0ba108ddf0fbb91dc3b45fff6e",
             "path": "config/commandkeys.json"
           }
@@ -272,7 +316,7 @@
           "type": "File",
           "artifact": {
             "size": 278,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/options.txt",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/config/fancymenu/options.txt",
             "MD5": "341cb5b305fd1d05485de63d6c765d5f",
             "path": "config/fancymenu/options.txt"
           }
@@ -283,7 +327,7 @@
           "type": "File",
           "artifact": {
             "size": 311,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/custom_gui_screens.txt",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/config/fancymenu/custom_gui_screens.txt",
             "MD5": "e77e28c2fc528bcf3d33f57cab7c7196",
             "path": "config/fancymenu/custom_gui_screens.txt"
           }
@@ -294,7 +338,7 @@
           "type": "File",
           "artifact": {
             "size": 16630,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/customization/wls_quick_menu.txt",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/config/fancymenu/customization/wls_quick_menu.txt",
             "MD5": "d86ccdd3e1918f65849c2b7e9c05b179",
             "path": "config/fancymenu/customization/wls_quick_menu.txt"
           }
@@ -305,7 +349,7 @@
           "type": "File",
           "artifact": {
             "size": 1760880,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/config/fancymenu/assets/wls_quick_menu_6.png",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/config/fancymenu/assets/wls_quick_menu_6.png",
             "MD5": "186120e75cb1632992262d40fcfb2398",
             "path": "config/fancymenu/assets/wls_quick_menu_6.png"
           }
@@ -316,7 +360,7 @@
           "type": "File",
           "artifact": {
             "size": 2826,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.core.config",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/journeymap/config/6.0/journeymap.core.config",
             "MD5": "d2abbe6ac6f86bee92f4f5d156ce3e4f",
             "path": "journeymap/config/6.0/journeymap.core.config"
           }
@@ -327,7 +371,7 @@
           "type": "File",
           "artifact": {
             "size": 1324,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.fullmap.config",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/journeymap/config/6.0/journeymap.fullmap.config",
             "MD5": "264f285e261f79d36174e41b6ae93862",
             "path": "journeymap/config/6.0/journeymap.fullmap.config"
           }
@@ -338,7 +382,7 @@
           "type": "File",
           "artifact": {
             "size": 2335,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.minimap.config",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/journeymap/config/6.0/journeymap.minimap.config",
             "MD5": "8db5fe0387d6519925a82e661fda44d7",
             "path": "journeymap/config/6.0/journeymap.minimap.config"
           }
@@ -349,7 +393,7 @@
           "type": "File",
           "artifact": {
             "size": 2341,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.minimap2.config",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/journeymap/config/6.0/journeymap.minimap2.config",
             "MD5": "1fb4e9f7277decb83b10d79177623461",
             "path": "journeymap/config/6.0/journeymap.minimap2.config"
           }
@@ -360,7 +404,7 @@
           "type": "File",
           "artifact": {
             "size": 668,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.rendering.config",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/journeymap/config/6.0/journeymap.rendering.config",
             "MD5": "bdead7b97d4b83acac9313e95b92713d",
             "path": "journeymap/config/6.0/journeymap.rendering.config"
           }
@@ -371,7 +415,7 @@
           "type": "File",
           "artifact": {
             "size": 969,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.topo.config",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/journeymap/config/6.0/journeymap.topo.config",
             "MD5": "81c2fbc39d9191bb0d83304777f0d3b8",
             "path": "journeymap/config/6.0/journeymap.topo.config"
           }
@@ -382,7 +426,7 @@
           "type": "File",
           "artifact": {
             "size": 1407,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.waypoint.config",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/journeymap/config/6.0/journeymap.waypoint.config",
             "MD5": "c06d1c818ab58f1338aa050d876ebef9",
             "path": "journeymap/config/6.0/journeymap.waypoint.config"
           }
@@ -393,7 +437,7 @@
           "type": "File",
           "artifact": {
             "size": 159,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/journeymap/config/6.0/journeymap.webmap.config",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/journeymap/config/6.0/journeymap.webmap.config",
             "MD5": "7922426e43c1e8a38ec0dd39c16c1d4c",
             "path": "journeymap/config/6.0/journeymap.webmap.config"
           }
@@ -404,7 +448,7 @@
           "type": "File",
           "artifact": {
             "size": 546925,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/shaderpacks/ComplementaryReimagined_r5.8.1.zip",
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/shaderpacks/ComplementaryReimagined_r5.8.1.zip",
             "MD5": "8dbb914ed233d6e8183ce34eb26beaab",
             "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip"
           }
@@ -415,9 +459,9 @@
           "type": "File",
           "artifact": {
             "size": 93,
-            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.1.2/files/servers.dat",
-            "path": "servers.dat",
-            "MD5": "2419eed65f1274324ec8d025f58a9e8f"
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/files/servers.dat",
+            "MD5": "2419eed65f1274324ec8d025f58a9e8f",
+            "path": "servers.dat"
           }
         }
       ]

@@ -1,0 +1,59 @@
+{
+  "version": 7,
+  "profiles": [
+    {
+      "version": 4,
+      "name": "꿀통서버",
+      "links": [],
+      "addToHistory": "OFF",
+      "showHudMessage": "OFF",
+      "resumeRepeating": "OFF",
+      "useRatelimit": "ON",
+      "macros": [
+        {
+          "version": 7,
+          "addToHistory": false,
+          "showHudMessage": false,
+          "resumeRepeating": false,
+          "useRatelimit": true,
+          "conflictStrategy": "ASSERT",
+          "sendMode": "SEND",
+          "activationType": "RELEASE",
+          "spaceTicks": 0,
+          "maxRepeats": 0,
+          "name": "바로가기 메뉴",
+          "mcActivatorKey": 0,
+          "keybind": {
+            "version": 0,
+            "keyName": "key.keyboard.g",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "altKeybind": {
+            "version": 0,
+            "keyName": "key.keyboard.unknown",
+            "limitKeyName": "key.keyboard.unknown"
+          },
+          "messages": [
+            {
+              "version": 1,
+              "string": "/openguiscreen wls_quick_menu",
+              "delayTicks": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "spDefault": 0,
+  "mpDefault": 0,
+  "defaultConflictStrategy": "ASSERT",
+  "defaultSendMode": "SEND",
+  "defaultActivationType": "RELEASE",
+  "ratelimitCount": 4,
+  "ratelimitTicks": 20,
+  "ratelimitStrict": false,
+  "ratelimitSp": false,
+  "lengthLimitLength": 256,
+  "macroMcKeyCount": 0
+}
+

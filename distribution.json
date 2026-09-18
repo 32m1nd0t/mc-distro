@@ -1,5 +1,5 @@
 {
-  "version": "1.0.88",
+  "version": "1.0.89",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -12,7 +12,7 @@
       "name": "꿀통서버",
       "description": "꿀통서버 Minecraft 26.2 (Fabric v0.19.3)",
       "icon": null,
-      "version": "1.0.85",
+      "version": "1.0.86",
       "address": "wlsserver.duckdns.org:25565",
       "minecraftVersion": "26.2",
       "javaOptions": {
@@ -173,6 +173,16 @@
             "size": 21426394,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/honey-custom-menus-client-1.0.2.jar",
             "MD5": "2ded74cc315558788a53ca1bc96ba3cb"
+          }
+        },
+        {
+          "id": "kr.honey.typing:honey_typing_client:1.0.0@jar",
+          "name": "Honey Typing Indicator",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5836,
+            "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/honey-typing-client-1.0.0.jar",
+            "MD5": "874a11adcdbf25e13588820fb3cc74ab"
           }
         },
         {

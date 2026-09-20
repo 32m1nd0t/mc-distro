@@ -1,5 +1,5 @@
 {
-  "version": "1.0.89",
+  "version": "1.0.90",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -12,7 +12,7 @@
       "name": "꿀통서버",
       "description": "꿀통서버 Minecraft 26.2 (Fabric v0.19.3)",
       "icon": null,
-      "version": "1.0.86",
+      "version": "1.0.87",
       "address": "wlsserver.duckdns.org:25565",
       "minecraftVersion": "26.2",
       "javaOptions": {
@@ -113,6 +113,36 @@
             "size": 2535765,
             "url": "https://32m1nd0t.github.io/mc-distro/servers/wlsserver-26.2/fabricmods/required/fabric-api-0.158.0+26.2.jar",
             "MD5": "238103e925b6d9980a58fb283f02f597"
+          }
+        },
+        {
+          "id": "generated.fabricmod:cloth-config:26.2.155@jar",
+          "name": "Cloth Config API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1135186,
+            "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/Nv3xnWXd/cloth-config-26.2.155.jar",
+            "MD5": "776ec6f7bea662823c7acc7aa8b66c68"
+          }
+        },
+        {
+          "id": "generated.fabricmod:player-animation-library:1.2.6+mc.26.2@jar",
+          "name": "Player Animation Library",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 419757,
+            "url": "https://cdn.modrinth.com/data/ha1mEyJS/versions/Hq1CwB9w/PlayerAnimationLibMerged-1.2.6%2Bmc.26.2.jar",
+            "MD5": "a993c98b0c19c7278fde4020210ec424"
+          }
+        },
+        {
+          "id": "generated.fabricmod:smoothplayeranimations:1.0.4+26.2@jar",
+          "name": "Smooth Player Animations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 381617,
+            "url": "https://cdn.modrinth.com/data/ZdlGpqTS/versions/mmGc0C8V/SmoothPlayerAnimations_Fabric_26.2_1.0.4.jar",
+            "MD5": "137ec957fd6729f9c4786ccea7c1a0c3"
           }
         },
         {
